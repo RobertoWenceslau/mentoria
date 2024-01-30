@@ -1,0 +1,33 @@
+
+
+
+
+footer{
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    margin: 10px 10px 10px 0px;
+    border-radius: 10px;
+    
+
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+section article{
+    max-width: 100%;
+    
+    background-color: grey;
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+}
+section article h2{
+    color: white;
+    text-align: center;
+}
