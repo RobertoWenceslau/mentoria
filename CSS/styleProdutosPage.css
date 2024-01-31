@@ -17,7 +17,6 @@ header img{
 
 header div article{
     background-color: white;
-    color: black;
     height: auto;
     text-align: center;
     padding: 2px;
@@ -35,20 +34,11 @@ main{
 main section article img{
     min-width: 100px;
     min-height: 100px;
-    
-    
-}
-
-#menu{
-    display: flex;
-    align-content: flex-end;
-    justify-content: right;
-}
-
-img{
     margin: 10px;
     border-radius: 20px;
-
+    border: solid;
+    border-color: darkorange;
+    border-width: 2px;
 }
 
 footer{
@@ -59,31 +49,31 @@ footer{
     bottom: 0;
     position: fixed;
     margin: 10px 10px 0px 0px;
-    border-radius: 10px;
     
-
+    padding: 5px 0px;
+    
 }
 
 section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
 }
 section article{
-    max-width: 100%;
-    
+    max-width: 400px;
     background-color: grey;
     width: fit-content;
     border-radius: 10px;
     margin: 5px 5px 5px 5px;
     padding: 5px;
+    
 }
 section article h2{
-    color: white;
+    color: black;
     text-align: center;
 }
-ul{
-    margin: auto;
-}
+
 button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: fit-content;
@@ -97,5 +87,10 @@ button{
     
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
   
+}
+.quantidade{
+    margin: 10px 0px 5px 0px; 
+    width: 40px;
 }
