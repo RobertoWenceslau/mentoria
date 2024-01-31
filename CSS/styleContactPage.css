@@ -12,9 +12,23 @@ header{
     flex-direction: row;
     padding: 10px 10px 0px 10px;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;}
+
+    header img{
+        margin-left: 0px;
+        border-radius: 20px;
+    }
     
-}
+    header div article{
+        background-color: white;
+        color: black;
+        height: auto;
+        text-align: center;
+        padding: 2px;
+        border-radius: 5px;
+        align-items: center;
+    }
+
 main{
     margin: 10px 10px 10px 10px;
 

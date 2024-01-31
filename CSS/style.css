@@ -54,22 +54,3 @@ img{
     margin-right: auto;
     border-radius: 20px;
 }
-
-
-
-section{
-    display: flex;
-    flex-direction: row;
-}
-section article{
-    max-width: 100%;
-    
-    background-color: grey;
-    border-radius: 10px;
-    margin: 5px 5px 5px 5px;
-    padding: 5px;
-}
-section article h2{
-    color: white;
-    text-align: center;
-}
