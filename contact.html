@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Contato</title>
     <link rel="stylesheet" href="CSS\styleContactPage.css">
+    
+    
+    
 
 </head>
 <body>
@@ -35,11 +38,19 @@
             <input type="email" name="email" placeholder="Insira seu E-mail">
             <label for="mensagem">Mensagem</label>
             <textarea name="" id="mensagem" cols="30" rows="10" placeholder="Insira sua mensagem."></textarea>
-            <button>
-                Enviar
-            </button>
+            <div></div>
+            <button onclick="myFunction()">Clique aqui</button>
+      <!-- botão que apaga o texto ao ser clicado -->
+                <div id="contextText" style="display: block;"><p>Texto que vai sumir</p></div>
+        <!-- div com id -->
+        
         
         </form>
+        <div>
+            <p class="texto">Olá, tudo bem</p>
+            
+
+        </div>
 
     </main>
     <footer>
@@ -48,4 +59,10 @@
 
     </footer>
 </body>
+
+<!-- Tags scripts do JavaScript -->
+<script type="text/javascript" src="./JS/script.js"></script>
+<!--Chamar JQuery-->
+<script type="text/javascript" src="./JS/jquery-v3.7.1.min.js"></script>
 </html>
+
