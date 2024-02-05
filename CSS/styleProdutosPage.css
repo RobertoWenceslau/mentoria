@@ -7,21 +7,30 @@ header{
     display: flex;
     flex-direction: row;
     padding: 10px 10px 0px 10px;
-    justify-content: space-between;
-    align-items: center;}
+    justify-content: center;
+}
 
 header img{
     margin-left: 0px;
     border-radius: 20px;
+    position: fixed;
+    top: 17px;
+    left: 10px;
+    
 }
 
-header div article{
+header nav article{
     background-color: white;
+    color: black;
     height: auto;
     text-align: center;
     padding: 2px;
     border-radius: 5px;
     align-items: center;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-around;
+
 }
 body{
     background-color: orange;
