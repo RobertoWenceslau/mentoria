@@ -56,8 +56,9 @@ footer{
 
 section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     margin-bottom: 100px;
 }
 section article{
