@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="CSS\style.css">
+    <link rel="icon" href="./IMG/logomarcachinatchau.PNG ">
+</head>
+<body>
+    <header>
+        <div>
+            
+        <img src="./IMG/logomarcachinatchau.PNG" alt="" height="100px" width="100px">
+        </div>
+        <div>
+            <h1>Desafio de HTML</h1>
+            <nav>
+                <article>
+                    <a href="Paginainicial.html">Home</a>
+                    <a href="contact.html">Contatos</a>
+                    <a href="produtos.html">Produtos</a>
+                </article>
+            </nav>
+        
+        </div>
+        
+    </header>
+    <main>
+        <section>
+            <div class="grid1"><h3 style="width: 50%;">teste de grid</h3>
+                <div><img src="./IMG/camisetas.png" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id perferendis iure cumque error laudantium iste laborum, quos ratione sint sunt natus accusamus rem nihil dolorem similique asperiores dignissimos distinctio excepturi quis sapiente, libero praesentium totam numquam. Provident voluptatum atque dolorum a minima corporis. Accusamus dicta eos odit dolores iste voluptate?</p>
+                <button class="botao">Testando</button>
+                </div>
+            </div>
+            <div class="grid2"><h3>teste de flex</h3>
+                <img src="./IMG/camisetas.png" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id perferendis iure cumque error laudantium iste laborum, quos ratione sint sunt natus accusamus rem nihil dolorem similique asperiores dignissimos distinctio excepturi quis sapiente, libero praesentium totam numquam. Provident voluptatum atque dolorum a minima corporis. Accusamus dicta eos odit dolores iste voluptate?</p>
+            </div>
+        </section>
+        <img src="https://i.pinimg.com/originals/2b/cc/0e/2bcc0e11960ebe99ec2c4d402328a970.gif" alt="">
+        <p class="hover">Este é um exemplo de site desenvolvido como desafio html</p>
+        <audio autoplay controls>
+            <source src="Keyboard Key Typing.mp3">
+        </audio>
+        <button class="botao">clique</button>
+
+        
+    </main>
+    <footer>
+        <p>Site desenvolvido pela turma de DEV WEB Java</p>
+        <p>Copyright &copy; 2024</p>
+
+    </footer>
+
+    
+</body>
+<script>
+    var btn = document.querySelector('button');
+
+    function random(number) {
+    return Math.floor(Math.random()*(number+1));
+    }
+    btn.onclick = function() {
+        var rndCol = 'rgb('+random(255)+','+random(255)+','+random(255)+')';
+        document.body.style.backgroundColor = rndCol;
+    }
+</script>
+</html>
